@@ -1,0 +1,26 @@
+.register-box {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.register-box h2 {
+  text-align: center;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 10px;
+  background: #111111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

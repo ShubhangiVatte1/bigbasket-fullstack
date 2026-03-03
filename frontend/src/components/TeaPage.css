@@ -1,0 +1,77 @@
+.tea-page {
+    display:flex;
+  padding: 16px;
+  background: #f7f7f7;
+}
+
+.tea-header {
+  margin-bottom: 12px;
+}
+
+.tea-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tea-layout {
+  display: flex;
+  gap: 16px;
+}
+
+/* LEFT */
+.tea-layout > :first-child {
+  width: 260px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+   min-width: 260px;
+}
+
+/* RIGHT */
+.tea-layout > :last-child {
+  flex: 1;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+}
+/*-------*/
+.tea-page {
+  padding: 20px;
+}
+
+.tea-header {
+  margin-bottom: 15px;
+}
+
+.tea-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.tea-category {
+  width: 220px;
+  border-right: 1px solid #ddd;
+}
+
+.tea-category p {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.tea-category .active {
+  font-weight: bold;
+  color: green;
+}
+
+.tea-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.tea-card {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+}
+

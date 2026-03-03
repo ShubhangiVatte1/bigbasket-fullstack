@@ -1,0 +1,63 @@
+.account-page {
+  padding: 20px 40px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.account-layout {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.account-left {
+  width: 260px;
+  border-right: 1px solid #ddd;
+  padding: 20px 15px;
+}
+
+.account-left h4 {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.account-left p {
+  font-size: 14px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.account-left .active {
+  color: #84c225;
+  font-weight: bold;
+}
+
+.account-right {
+  flex: 1;
+  padding: 25px 30px;
+}
+
+.account-right h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.account-right h2 span {
+  font-size: 13px;
+  color: #84c225;
+  cursor: pointer;
+}
+
+.profile-info p {
+  margin: 6px 0;
+}
+
+.orders-box {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}

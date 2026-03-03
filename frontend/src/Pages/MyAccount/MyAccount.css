@@ -1,0 +1,98 @@
+/* .myaccount-container {
+  display: flex;
+  min-height: 80vh;
+}
+
+.myaccount-sidebar {
+  width: 220px;
+  border-right: 1px solid #ddd;
+}
+
+.myaccount-sidebar p {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.myaccount-sidebar p.active {
+  background: #f0f7e8;
+  font-weight: bold;
+}
+
+.myaccount-content {
+  flex: 1;
+  padding: 20px;
+}
+.account-container {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 220px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar p {
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 0;
+  color: #333;
+}
+
+.sidebar p:hover {
+  background-color: #f5f5f5;
+}
+
+.sidebar p.active {
+  font-weight: bold;
+  color: #000;
+  border-left: 4px solid #84c225; /* BigBasket green */
+  /* background-color: #f9fff2;
+}
+  */
+.myaccount-wrapper {
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.myaccount-container {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.myaccount-left {
+  width: 260px;
+  border-right: 1px solid #ddd;
+  padding: 20px 15px;
+}
+
+.myaccount-left h4 {
+  font-size: 13px;
+  margin: 18px 0 8px;
+  color: #333;
+}
+
+.myaccount-left p {
+  font-size: 14px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.myaccount-left p.active {
+  color: #84c225;
+  font-weight: 600;
+}
+
+.myaccount-right {
+  flex: 1;
+  padding: 25px 30px;
+}
+.myaccount-left p:hover{
+    color: #84c225;
+}

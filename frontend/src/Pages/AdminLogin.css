@@ -1,0 +1,30 @@
+.admin-container {
+  width: 300px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  background-color: rgb(201, 205, 209);
+}
+
+.admin-container input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.admin-container button {
+  width: 100%;
+  padding: 8px;
+  background: #70a81b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.msg {
+  margin-top: 10px;
+  font-weight: bold;
+  
+}

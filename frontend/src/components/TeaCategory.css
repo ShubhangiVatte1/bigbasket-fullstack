@@ -1,0 +1,52 @@
+.page-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.shop-category {
+  width: 260px;
+}
+
+.shop-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.shop-category li {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+
+.shop-category li.active {
+  color: #84c225;
+  border-left: 3px solid #84c225;
+  background: #f7fff0;
+  font-weight: 600;
+}
+.tea-category {
+  width: 100%;
+}
+
+.tea-category h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.tea-cat-item {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  background: #f5f5f5;
+}
+
+.tea-cat-item:hover {
+  background: #eaeaea;
+}
+
+.tea-cat-item.active {
+  background: #84c225;
+  color: white;
+  font-weight: 600;
+}

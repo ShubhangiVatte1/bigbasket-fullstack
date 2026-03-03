@@ -1,0 +1,80 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: white;
+  width: 500px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.warning-box {
+  background: #fff3cd;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.out {
+  color: red;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.confirm {
+  background: red;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+}
+.availability-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item-image {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.item-name {
+  font-size: 14px;
+  margin: 0;
+}
+
+.item-price {
+  font-size: 13px;
+  color: #555;
+}
+
+.item-status.out {
+  color: red;
+  font-size: 13px;
+  margin-left: auto;
+}

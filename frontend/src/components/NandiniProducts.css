@@ -1,0 +1,82 @@
+.nandini-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.nandini-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.nandini-product-img {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;   /* 👈 big & clean look */
+  border-radius: 8px;
+  background: #f5f5f5;
+}
+
+.nandini-name {
+  margin: 8px 0 4px;
+  font-size: 14px;
+}
+
+.nandini-price {
+  font-size: 15px;
+  color: #1a7f37;
+}
+
+.nandini-view-btn {
+  margin-top: 8px;
+  width: 100%;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.nandini-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  padding: 12px;
+}
+
+.nandini-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔥 IMAGE SIZE CONTROL */
+.nandini-product-img {
+  width: 100%;
+  height: 120px;        /* 👈 image SMALL */
+  object-fit: cover;   /* 👈 crop nicely */
+  border-radius: 6px;
+  background: #f2f2f2;
+}
+
+.nandini-card p {
+  font-size: 13px;
+  margin: 6px 0 2px;
+}
+
+.nandini-card strong {
+  font-size: 14px;
+}
+
+.nandini-card button {
+  margin-top: 6px;
+  width: 100%;
+  font-size: 12px;
+  padding: 4px;
+}

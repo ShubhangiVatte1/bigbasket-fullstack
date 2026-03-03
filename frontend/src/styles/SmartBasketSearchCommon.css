@@ -1,0 +1,37 @@
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+}
+
+.search-results {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-item img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.qty-box {
+  display: flex;
+  gap: 5px;
+}
+
+.qty-box button {
+  width: 30px;
+}

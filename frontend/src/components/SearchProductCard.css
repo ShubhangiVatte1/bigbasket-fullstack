@@ -1,0 +1,35 @@
+.search-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.search-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.search-info {
+  flex: 1;
+}
+
+.search-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.search-price {
+  color: green;
+  font-weight: 500;
+}
+
+.search-actions {
+  display: flex;
+  align-items: center;
+}

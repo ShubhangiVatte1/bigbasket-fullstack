@@ -1,0 +1,69 @@
+.bs-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  width: 200px;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.image-box {
+  position: relative;
+  height: 180px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box img {
+  max-width: 120%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.bs-img {
+  object-fit: contain;
+  position: relative;
+  width: 100%;
+  height: 160px;          /* 🔥 MUST */
+  background: #f6f6f6;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bs-offer {
+  background: #2e7d32;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.bs-price span {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 6px;
+}
+.sb-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-top: 10px;
+}
+
+.har-din-sasta-btn {
+  background-color: #d2e8c2;
+  border: 1px solid #a0c270;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.har-din-sasta-btn:hover {
+  background-color: #c0e0b0;
+}

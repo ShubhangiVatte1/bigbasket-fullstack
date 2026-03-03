@@ -1,0 +1,26 @@
+.ghee-category {
+  width: 100%;
+}
+
+.ghee-category h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ghee-cat-item {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  background: #f5f5f5;
+}
+
+.ghee-cat-item:hover {
+  background: #eaeaea;
+}
+
+.ghee-cat-item.active {
+  background: #84c225;
+  color: white;
+  font-weight: 600;
+}

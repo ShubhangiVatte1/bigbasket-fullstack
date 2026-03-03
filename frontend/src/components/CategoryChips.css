@@ -1,0 +1,35 @@
+.category-chips {
+  display: flex;
+  gap: 14px;
+  padding: 16px 20px;
+  background: #f7f7f7;
+  text-align: center;
+  max-width: 1200px;   /* Perfect desktop width */
+  margin: 0 auto;  
+}
+
+.chip {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #eaeaea;
+  color: #111;
+  white-space: nowrap;
+}
+
+.chip:nth-child(2) {
+  background: #1f1f2e;
+  color: white;
+}
+
+.chip:nth-child(3) {
+  background: #4a6b21;
+  color: white;
+}
+
+.chip:hover {
+  opacity: 0.9;
+}

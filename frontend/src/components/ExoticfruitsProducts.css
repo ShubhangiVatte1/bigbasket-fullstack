@@ -1,0 +1,64 @@
+/* =========================
+   EXOTIC FRUITS & VEGGIES
+   ========================= */
+
+/* Main grid */
+.exotic-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 18px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Card */
+.exotic-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.exotic-card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+/* Image */
+.tea-product-img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Product name */
+.exotic-card p {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0;
+  min-height: 36px;
+}
+
+/* Price */
+.exotic-card strong {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .exotic-products {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    padding: 12px;
+  }
+
+  .exotic-product-img {
+    height: 140px;
+  }
+}

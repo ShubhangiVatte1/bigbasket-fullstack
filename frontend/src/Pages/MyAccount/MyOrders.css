@@ -1,0 +1,80 @@
+.myorders-wrapper {
+  background: #fff;
+  padding: 20px 30px;
+  min-height: 500px;
+}
+
+/* HEADER */
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.orders-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pay-now-btn {
+  background: #b7d86f;
+  border: none;
+  padding: 8px 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* TABS */
+.orders-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.orders-tabs button {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #f1f1f1;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.orders-tabs .active {
+  background: #001f3f;
+  color: #fff;
+}
+
+/* EMPTY STATE */
+.orders-empty {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.orders-empty img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.orders-empty h2 {
+  color: #2a5bd7;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.orders-empty p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.start-shopping {
+  background: #fff;
+  border: 1px solid #2a5bd7;
+  color: #2a5bd7;
+  padding: 8px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}

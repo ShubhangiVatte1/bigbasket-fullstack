@@ -1,0 +1,128 @@
+/* 
+
+.role-container button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}    
+ 
+    
+    .role-container {
+      background-color: #ffffff; /* White background box */
+      /* padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 250px; /* Fixed width for box */
+    /* } */
+
+    /* .role-container h2 {
+      margin-bottom: 30px;
+      font-size: 22px;
+      color: #333;
+      text-align: center;
+      justify-content: center;
+       align-items: center;
+
+    } */
+
+    /* .role-container button {
+      display: block; Makes buttons line by line */
+      /* width: 100%;    Full width inside box
+      padding: 12px;
+      margin-bottom: 15px; Space between buttons */
+      /* font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      cursor: pointer; */
+      /* transition: all 0.2s ease;
+    }
+
+    .role-container button:hover {
+      background-color: #007bff;
+      color: white;
+      border-color: #007bff;
+    }
+    /* Full page center */
+/* .role-page {
+  min-height: calc(100vh - 80px); /* header height adjust */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background: #f5f5f5;
+} */ 
+
+/* Card box */
+/* .role-box {
+  background: #ffffff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+} */
+
+/* Title */
+/* .role-box h2 {
+  margin-bottom: 25px; */
+  /* font-size: 22px;
+} */ 
+
+/* Buttons line by line */
+/* .role-box button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+/* .role-box button:hover {
+  background: #f0f0f0;
+}  */
+/* FULL SCREEN OVERLAY */
+.role-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;      /* ✅ vertical center */
+  justify-content: center;  /* ✅ horizontal center */
+  z-index: 1000;
+}
+
+/* CENTER CARD */
+.role-card {
+  width: 320px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* TITLE */
+.role-card h2 {
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.role-btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #fff;
+}
+
+.role-btn:hover {
+  background: #f5f5f5;
+}

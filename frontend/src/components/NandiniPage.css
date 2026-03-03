@@ -1,0 +1,77 @@
+.nandini-page {
+    display:flex;
+  padding: 16px;
+  background: #f7f7f7;
+}
+
+.nandini-header {
+  margin-bottom: 12px;
+}
+
+.nandini-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nandini-layout {
+  display: flex;
+  gap: 16px;
+}
+
+/* LEFT */
+.nandini-layout > :first-child {
+  width: 260px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+   min-width: 260px;
+}
+
+/* RIGHT */
+.nandini-layout > :last-child {
+  flex: 1;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+}
+/*-------*/
+.nandini-page {
+  padding: 20px;
+}
+
+.nandini-header {
+  margin-bottom: 15px;
+}
+
+.nandini-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.nandini-category {
+  width: 220px;
+  border-right: 1px solid #ddd;
+}
+
+.nandini-category p {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.nandini-category .active {
+  font-weight: bold;
+  color: green;
+}
+
+.nandini-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.nandini-card {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+}
+

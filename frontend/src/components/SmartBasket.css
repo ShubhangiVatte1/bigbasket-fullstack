@@ -1,0 +1,151 @@
+.search-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-card img {
+  width: 50px;
+}
+
+.search-card .info {
+  flex: 1;
+}
+/* SmartBasket.css */
+
+/* Container */
+.smart-basket {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+}
+
+/* Header */
+.sb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sb-header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sb-controls button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.sb-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Cards Container */
+.sb-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.sb-card {
+  min-width: 200px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sb-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Image Box */
+.image-box {
+  position: relative;
+  width: 200%;
+  height: 140px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+.sb-offer {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #ff4d4f;
+  color: #fff;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+
+/* Info */
+.sb-info {
+  padding: 10px;
+}
+
+.sb-delivery {
+  font-size: 0.75rem;
+  color: #52c41a;
+}
+
+.sb-brand {
+  font-size: 0.8rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.sb-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.sb-price {
+  font-size: 0.9rem;
+  margin: 4px 0;
+}
+
+.sb-price span {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 5px;
+}
+
+/* Actions */
+.sb-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.sb-actions button {
+  flex: 1;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
