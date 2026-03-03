@@ -18,7 +18,7 @@ bigbasket-fullstack/
 
 ### Backend
 cd backend  
-npm install  
+node server.js  
 npm start  
 
 ### Frontend
